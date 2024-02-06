@@ -7,21 +7,16 @@
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
-    app.setWindowIcon(QIcon(":/Icones/logo-anglo.ico"));
-    app.setOrganizationName("Anglo");
-    app.setOrganizationDomain("Anglo");
-    app.setApplicationName("Dashboard Educacional");
+    app.setWindowIcon(QIcon(":/Icones/logo"));
+    app.setOrganizationName("");
+    app.setOrganizationDomain("");
+    app.setApplicationName("Dashboard");
 
     QQmlApplicationEngine engine;
 
 
-//    RestAccessManager rst;
-//    rst.setUsuario("rafael.yuji","38621509");
-//    rst.GET("http://186.194.232.102:8051/api/framework/v1/consultaSQLServer/RealizaConsulta/DASH.ACOL.PED.AB/1/S/",QUrlQuery(""),{});
-
-
     MainController mc;
-    mc.autenticar("rafael.yuji","38621509");
+    mc.autenticar("","");
 
     mc.solicitarConsultaTurmas("2023");
 
