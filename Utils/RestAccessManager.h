@@ -33,9 +33,9 @@ public:
 private:
     Usuario usuario;
     QNetworkReply* currentReply = nullptr;
-    QString urlBase = "http://172.16.100.180:8051/api/framework/v1/consultaSQLServer/RealizaConsulta/%1/1/S/";
-    QString localHost = "172.16.100.180";
-    QString remoteHost = "186.194.232.102";
+    QString urlBase = "";
+    QString localHost = "";
+    QString remoteHost = "";
     bool isHostAvailable(const QString &host);
     //186.194.232.102
 private slots:
