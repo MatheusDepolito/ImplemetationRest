@@ -15,7 +15,7 @@ public:
     void solicitarConsultaTurmas(QString ano);
 
 private:
-    QString consulta = "WB.GET.TURMA";
+    QString consulta = "";
     QVector<QString> parametro = {"ANO"};
     TurmaModel* turmaModel;
     RestAccessManager* restAccessManager;
