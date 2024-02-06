@@ -10,8 +10,8 @@ Item {
 
   QtObject {
     id: telaConfigs
-    readonly property var telaLogin: ["Login Dashboard Educacional", ""]
-    readonly property var telaMainWindow: ["Dashboard Educacional", ""]
+    readonly property var telaLogin: ["Login Dashboard ", ""]
+    readonly property var telaMainWindow: ["Dashboard ", ""]
   }
 
   readonly property string title: telaConfigsAtual[0]
