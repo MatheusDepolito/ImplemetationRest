@@ -23,7 +23,7 @@ list(APPEND QML_FILES Main.qml MainWindow.qml)
 list(APPEND SOURCES_FILES Utils/utils.h Utils/utils.cpp Utils/Tipos.h Utils/RestAccessManager.h Utils/RestAccessManager.cpp Controllers/MainController.h Controllers/MainController.cpp)
 
 set(icon_files)
-foreach(icon IN ITEMS baixo barChart1 grid more-vertical calendar graduation cima config home left gridDots logo-anglo minus moon Nao notify refresh resize right Sim square sun x)
+foreach(icon IN ITEMS baixo barChart1 grid more-vertical calendar graduation cima config home left gridDots logo minus moon Nao notify refresh resize right Sim square sun x)
     set(icon_ico "Icones/${icon}.ico")
     set(icon_svg "Icones/${icon}.svg")
 
